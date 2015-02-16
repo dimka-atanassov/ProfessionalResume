@@ -1,0 +1,151 @@
+/* skills summary*/
+.skills-summary h2{
+    color:#196A8E;
+}
+
+.skills-summary{
+    font-size:18px;
+}
+
+.skills-summary{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    font-family: 'Shift', sans-serif;
+}
+
+.skills-summary h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.skills-summary p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+/* jumbotron */
+.jumbotron{
+    height:500px;
+    height:500px;
+    background-color: #483D8B;
+}
+
+.jumbotron h1{
+    color: #fff;
+    font-size:48px;
+    font-weight:bold;
+    font-family: 'Shift', sans-serif;
+}
+
+.jumbotron p{
+    color:#fff;
+    font-size:20px;
+}
+
+.jumbotron .container {
+    position:relative;
+    top:100px;
+}
+
+
+.img-circular{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    max-width: 460px;
+    display:flex;
+
+}
+
+/*hide the image if window is small*/
+@media only screen and (max-width: 1000px){
+    .img-circular{
+        display: none;
+    }
+}
+
+
+/*contact me section*/
+.contact-me{
+    border: 3px solid #dbdbdb;
+    padding-top: 14px;
+    padding-bottom:14px;
+    padding-left:15px;
+    padding-right:15px;
+    font-weight:bold;
+
+}
+
+.contact-me li{
+    text-transform:uppercase;
+    list-style-type: none;
+}
+
+/* resume section */
+.resume{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.resume h3{
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    color:#196A8E;
+}
+
+.resume h4{
+    font-family: 'Shift', sans-serif;
+    font-weight:italic;
+}
+
+.resume p{
+    font-family: 'Shift', sans-serif;
+}
+
+.resume li{
+    font-family: 'Shift', sans-serif;
+}
+
+.resume a{
+    color:#00b0ff;
+}
+
+
+/*portfolio section*/
+.portfolio{
+    background-size: cover;
+    background-color: #483D8B;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+.portfolio h3{
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    color:#fff;
+}
+
+.portfolio h4{
+    font-family: 'Shift', sans-serif;
+    font-weight:italic;
+    color:#fff;
+}
+
+.portfolio p{
+    font-family: 'Shift', sans-serif;
+    color:#fff;
+}
+
+.portfolio li{
+    font-family: 'Shift', sans-serif;
+    color:#fff;
+}
+
+.portfolio a{
+    color:#fff;
+}
+
